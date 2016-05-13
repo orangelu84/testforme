@@ -1,0 +1,13 @@
+function Chet(a)
+ { 
+   if((a.toFixed(2)-a.toFixed(0))==0)
+    { 
+     if(((a/2).toFixed(2)-(a/2).toFixed(0))==0)
+     {alert("Вы ввели четное число"); }
+     else 
+     {alert("Вы ввели нечетное число"); }
+    }
+    else
+    { alert ("Вы ввели не целое число");}
+ }
+
